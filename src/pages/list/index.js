@@ -54,7 +54,7 @@ const List = () => {
     <div>
       <Grid container direction="row" spacing={8} justify="center"
   alignItems="center">
-        <Grid item xs={4}>
+        <Grid item xs={12} sm={12} md={6} lg={4}>
           <div >
             <Calculator handleSave={handleSave}/>
           </div>
